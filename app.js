@@ -12,3 +12,9 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
 
 });
+
+app.get('/jrao', (req,res) => {
+    res.sendFile('jrao.html', {root: 'public'})
+});
+
+
