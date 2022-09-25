@@ -17,4 +17,7 @@ app.get('/jrao', (req,res) => {
     res.sendFile('jrao.html', {root: 'public'})
 });
 
+app.get('/smcginty', (req,res) => {
+    res.sendFile('smcginty.html', {root: 'public'})
+});
 
