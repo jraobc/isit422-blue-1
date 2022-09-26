@@ -21,3 +21,7 @@ app.get('/smcginty', (req,res) => {
     res.sendFile('smcginty.html', {root: 'public'})
 });
 
+app.get('/yegal', (req, res) => {
+    res.sendFile('yegal.html', { root: 'public' })
+});
+
