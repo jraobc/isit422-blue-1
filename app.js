@@ -25,3 +25,7 @@ app.get('/yegal', (req, res) => {
     res.sendFile('yegal.html', { root: 'public' })
 });
 
+app.get('/talam', (req, res) => {
+    res.sendFile('talam.html', { root: 'public' })
+});
+
