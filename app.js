@@ -12,3 +12,20 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
 
 });
+
+app.get('/jrao', (req,res) => {
+    res.sendFile('jrao.html', {root: 'public'})
+});
+
+app.get('/smcginty', (req,res) => {
+    res.sendFile('smcginty.html', {root: 'public'})
+});
+
+app.get('/yegal', (req, res) => {
+    res.sendFile('yegal.html', { root: 'public' })
+});
+
+app.get('/talam', (req, res) => {
+    res.sendFile('talam.html', { root: 'public' })
+});
+
